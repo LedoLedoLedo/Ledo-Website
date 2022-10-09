@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    background-color: rgb(255, 230, 0);
+    height: 8vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 30%;
+    margin-right: 5vw;
+}
+
+nav h1 {
+    margin: 0;
+    margin-left: 5vw;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+#landing {
+    background-color: red;
+    background-image: url("../images/landing.jpg");
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#music{
+
+}
+
+#merch{
+
+}
+
+#News{
+
+}
+
+
